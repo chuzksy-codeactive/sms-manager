@@ -1,11 +1,11 @@
-[![Heroku]()]
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)](https://sms-api-manager.herokuapp.com/)
 
 
 ## SMS-Management-Application-API
 An application that manages SMS application API.
 
 ##  Documentation
-The API documentation can be found here: [![Run in Postman](https://run.pstmn.io/button.svg)]()
+The API documentation can be found here: [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/5716924/S1ERwHe2)
 
 
 ## Technologies Used
