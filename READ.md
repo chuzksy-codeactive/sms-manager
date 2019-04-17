@@ -24,6 +24,7 @@ The API documentation can be found here: [![Run in Postman](https://run.pstmn.io
 - Download or clone the repo
 - open terminal inside root directory of cloned folder
 - type npm install the all dependencies
+- provide DB url in the .env file
 - npm run start:dev to run in development mode
 - npm run start to run in production mode
 
