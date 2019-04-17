@@ -1,0 +1,34 @@
+{
+  "name": "sms-manager",
+  "version": "1.0.0",
+  "description": "SMS Management System",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node server/src/index.js",
+    "build": "babel server/ --out-dir dist --copy-files",
+    "start": "NODE_ENV=production node dist/src/index.js"
+  },
+  "author": "chuzksy-codeactive",
+  "keywords": [
+    "SMS",
+    "SMS Management"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "sequelize-cli": "^5.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.6.0"
+  }
+}
